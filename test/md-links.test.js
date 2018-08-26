@@ -1,5 +1,8 @@
-const sum = require('../lib/sum');
+const validateFile = require('../lib/md-links').validateFile;
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+
+
+test('validar que sea un archivo .md', () => {
+
+  expect(validateFile("archivo.md")).toBeTruthy();
 });
