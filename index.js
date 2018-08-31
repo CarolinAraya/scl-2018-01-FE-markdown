@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+'use strict';
+
+module.exports = require('./lib/md-links');
 
 const [, , ...args] = process.argv;
 
