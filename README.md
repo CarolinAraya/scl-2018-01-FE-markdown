@@ -53,8 +53,8 @@ _Te devolverá los mismo, más los status de las urls_ :japanese_ogre:
     line: 104,
     status: 200,
     success: 'OK' } 
-    
+
 ```
 
-[<img src=" http://octodex.github.com/images/dojocat.jpg">]
+<img src=" http://octodex.github.com/images/dojocat.jpg">
 
