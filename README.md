@@ -1,6 +1,7 @@
 # cmd-aLienks 
 ##extractor de links
 #:alien:
+[npm](https://www.npmjs.com/package/cmd-alienks)
 
 Es una biblioteca que utiliza NodeJS para extraer los links de un archivo markdown (.md) y retornarlos en la consola como un arreglo objetos con cuatro propiedades; la url, el título, la ruta del archivo y la línea del texto donde se encuentra. Y si se quieres se pueden validad los enlaces mediante un comando específico.
 
