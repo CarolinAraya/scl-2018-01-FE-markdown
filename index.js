@@ -1,16 +1,17 @@
 #!/usr/bin/env node
 
+const mdLinks = require('./lib/md-links').mdLinks;
 
-const Marked = require('marked');
-const fs = require('fs');
-const path = require('path');
+if (require.main === module) {
+  const [, , ...args] = process.argv;
+  
+  let options = {
+	  validate = args.includes('--validate'),
+  };
 
-let pathMark = "README.md";
+ 
+}
 
-fs.readFile(pathMark, (err, data) => {
-    if (err) throw err;
-    console.log(data.toString());
-  });
 
 
 
