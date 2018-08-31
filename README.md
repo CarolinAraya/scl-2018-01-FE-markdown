@@ -1,9 +1,9 @@
-# Markdown aLienks :alien:
+# cmd-aLienks 
 ##extractor de links
+#:alien:
 
 _Es una libreria de NodeJS que extrae los links de un archivo markdown (.md) y los retorna en la consola como un arreglo objetos con cuatro propiedades; la url, el título, la ruta del archivo y la línea del texto donde se encuentra. Y si se quiere se pueden validad los enlaces mediante un comando específico.
 
-:alien:
 
 ### Pre-requisitos :computer:
 
