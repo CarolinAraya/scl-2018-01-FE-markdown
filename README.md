@@ -2,7 +2,7 @@
 ##extractor de links
 #:alien:
 
-_Es una libreria de NodeJS que extrae los links de un archivo markdown (.md) y los retorna en la consola como un arreglo objetos con cuatro propiedades; la url, el título, la ruta del archivo y la línea del texto donde se encuentra. Y si se quiere se pueden validad los enlaces mediante un comando específico.
+Es una biblioteca que utiliza NodeJS para extraer los links de un archivo markdown (.md) y retornarlos en la consola como un arreglo objetos con cuatro propiedades; la url, el título, la ruta del archivo y la línea del texto donde se encuentra. Y si se quieres se pueden validad los enlaces mediante un comando específico.
 
 
 ### Pre-requisitos :computer:
