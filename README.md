@@ -10,33 +10,33 @@ Es una biblioteca que utiliza NodeJS para extraer los links de un archivo markdo
 
 ### Pre-requisitos :computer:
 
-_Debes tener instalado npm manera global si ya lo tienes no es necesario volver a instalarlo_
+_Primero debes tener instalado npm manera global, si ya lo tienes no es necesario volver a instalarlo_
 
 ```
-$npm install npm@latest -g
-$npm init
+$npm install -g
 
 ```
 
 ### Instalación de dependencias 📓
 
-_Es necesario que instales marked como dependencia de tu proyecto_
+_Es necesario instalar de forma global las siguientes librerías con las que trabaja este markdown links extractor, para que esté disponible en cualquiera de tus proyectos y si ya lo tienes instalado en lugar de "-g" debes escribir "--save"_
 
 ```
-$npm install --save marked
+$npm install marked -g
+$npm install node-fetch -g
 
 ```
 
 
 ### Instalación aLienks :electric_plug:
 
-_Ya viene con todas la dependencias requeridas_
+_Ya puedes instalar esta librería_
 
 ```
-$npm i cmd-alienks
+$npm i cmd-alienks -g
 ```
 
-_Luego ejecuta el siguiente comando_
+_Para extraer los links de tu .m ejecuta el siguiente comando_
 
 ```
 $md-links <nombre/o-ruta-de/tu/archivo.md>  
