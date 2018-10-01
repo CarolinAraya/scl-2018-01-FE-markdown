@@ -10,13 +10,23 @@ Es una biblioteca que utiliza NodeJS para extraer los links de un archivo markdo
 
 ### Pre-requisitos :computer:
 
-_Debes tener instalado npm manera global_
+_Debes tener instalado npm manera global si ya lo tienes no es necesario volver a instalarlo_
 
 ```
 $npm install npm@latest -g
 $npm init
 
 ```
+
+### Instalación de dependencias 📓
+
+_Es necesario que instales marked como dependencia de tu proyecto_
+
+```
+$npm install --save marked
+
+```
+
 
 ### Instalación aLienks :electric_plug:
 
