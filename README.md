@@ -54,7 +54,7 @@ _Te devolverá un arreglo con objetos similares a este_
 _Y si quieres validar los links_
 
 ```
-$md-links <nombre/o-ruta-de/tu/archivo.md> --validate
+$cmd-alienks <nombre/o-ruta-de/tu/archivo.md> --validate
 ```
 
 _Te devolverá lo mismo, más los status de las urls_ :japanese_ogre:

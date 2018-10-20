@@ -2,17 +2,25 @@
 'use strict';
 let mdLinks = require('./lib/md-links');
 
-if (require.main === module) {
-    const [, , ...args] = process.argv;
-    let fileName = args[0];
-    let validate = args[1];
+const [, , ...args] = process.argv;
+let fileName = args[0];
+let validate = args[1];
 
+if (require.main === module) {
     mdLinks(fileName, validate).then((result) => {
-        
-        if (result){
-            console.log("pez koi")
+
+        if (result) {
+            if (validate) {
+                result.forEach((result) => {
+                    console.log(`${result.path} Linea:${result.line}, ${result.href} texto: ${result.text} ${result.success}, ${result.status}`);
+                })
+            }
+            else {
+                result.forEach((result) => {
+                    console.log(`${result.path} Linea:${result.line}, ${result.href} texto: ${result.text}`);
+                })
+            }
         }
-        //return result;
     })
 }
 
