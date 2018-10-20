@@ -36,12 +36,12 @@ _Ya puedes instalar esta librería_
 $npm i cmd-alienks -g
 ```
 
-_Para extraer los links de tu .m ejecuta el siguiente comando_
+_Para extraer los links de tu .md ejecuta el siguiente comando_
 
 ```
 $cmd-alienks ./some/example.md  
 ```
-_Te devolverá un arreglo con objetos similares a este_
+_Te devolverá algo similar a esto: la ruta, línea en la que se encuentra y texto que lo acompaña_
 
 ```
 ./some/example.md:10 http://algo.com/2/3/ Link a algo
