@@ -39,33 +39,29 @@ $npm i cmd-alienks -g
 _Para extraer los links de tu .m ejecuta el siguiente comando_
 
 ```
-$md-links <nombre/o-ruta-de/tu/archivo.md>  
+$cmd-alienks ./some/example.md  
 ```
 _Te devolverá un arreglo con objetos similares a este_
 
 ```
- { href: 'https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/index.html',
-    text: '¿Simplemente qué es Node.js? - IBM Developer Works, 2011',
-    path: 'readme.md',
-    line: 285 } ]
+./some/example.md:10 http://algo.com/2/3/ Link a algo
+./some/example.md:15 https://otra-cosa.net/algun-doc.html algún doc
+./some/example.md:40 http://google.com/ Google 
 
 ```
 
 _Y si quieres validar los links_
 
 ```
-$cmd-alienks <nombre/o-ruta-de/tu/archivo.md> --validate
+$cmd-alienks ./some/example.md --validate
 ```
 
 _Te devolverá lo mismo, más los status de las urls_ :japanese_ogre:
 
 ```
- { href: 'https://github.com/Laboratoria/scl-2018-01-FE-markdown',
-    text: 'Laboratoria-Markdown',
-    path: 'readme.md',
-    line: 104,
-    status: 200,
-    success: 'OK' } 
+./some/example.md:10 http://algo.com/2/3/ Link a algo ok 200
+./some/example.md:15 https://otra-cosa.net/algun-doc.html  algún doc fail 404
+./some/example.md:40 http://google.com/  Google ok 301
 
 ```
 
